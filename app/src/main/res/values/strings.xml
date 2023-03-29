@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatGPT</string>
+    <string name="escribe_aqui">Escribe aqui</string>
+    <string name="error">"Error al cargar mensaje: "</string>
+    <string name="escribiendo" translatable="false">...</string>
+    <string name="apiKey" translatable="false">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</string>
+</resources>
