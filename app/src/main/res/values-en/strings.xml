@@ -3,4 +3,5 @@
     <string name="app_name">ChatGPT</string>
     <string name="escribe_aqui">Type here</string>
     <string name="error">"Error loading message: "</string>
+    <string name="boton_de_enviar">Send Button</string>
 </resources>
