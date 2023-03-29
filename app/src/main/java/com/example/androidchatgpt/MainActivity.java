@@ -61,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Adds message to chat view
+     * @param message message to be sent
+     * @param sender if it was sent by human or ChatGPT
+     */
     void addMessageToChat(String message, String sender){
         runOnUiThread(() -> {
             messageArrayList.add(new Message(message, sender));
@@ -69,6 +74,10 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * Sends message to openAI through a http request by okhttp3
+     * @param message message to send
+     */
     void callAPI(String message) {
         messageArrayList.add(new Message(getString(R.string.escribiendo), Message.SENT_GPT));
         JSONObject jsonObject = new JSONObject();
